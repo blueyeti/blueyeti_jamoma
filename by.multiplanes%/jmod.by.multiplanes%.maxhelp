@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 474.0, 137.0, 710.0, 611.0 ],
+		"rect" : [ 203.0, 183.0, 710.0, 611.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 474.0, 137.0, 710.0, 611.0 ],
+		"defrect" : [ 203.0, 183.0, 710.0, 611.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -339,12 +339,12 @@
 					"patching_rect" : [ 4.0, 81.0, 61.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"default_fontname" : "Verdana",
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p initialize"
@@ -401,7 +401,7 @@
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.by.multiplanes%.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 46.0, 497.0, 300.0, 105.0 ],
@@ -685,11 +685,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-31",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 281.0, 258.0, 151.0, 19.0 ],
-									"text" : "xroute b_multi_body_shape"
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 281.0, 259.0, 133.0, 19.0 ],
+									"text" : "sel b_multi_body_shape"
 								}
 
 							}
@@ -713,7 +713,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-34",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 281.0, 187.0, 52.0, 19.0 ],
@@ -824,11 +824,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-40",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 110.0, 256.0, 151.0, 19.0 ],
-									"text" : "xroute b_multi_body_shape"
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 110.0, 256.0, 133.0, 19.0 ],
+									"text" : "sel b_multi_body_shape"
 								}
 
 							}
@@ -852,7 +852,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-33",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 110.0, 185.0, 52.0, 19.0 ],
@@ -1479,12 +1479,12 @@
 					"patching_rect" : [ 142.0, 470.0, 92.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"default_fontname" : "Verdana",
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p to-jit.multiple"

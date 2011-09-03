@@ -5,39 +5,41 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='angdamp' type='decimal' priority='3'>0.100000</item>
-    <item name='angvel' type='decimal' priority='8'>0.000000</item>
-    <item name='collide' type='array' priority='8'>1 65535 </item>
-    <item name='collidegroup' type='integer' priority='7'>0</item>
-    <item name='density' type='decimal' priority='4'>1.000000</item>
-    <item name='force' type='array' priority='9'>0.000000 0.000000 </item>
-    <item name='forceFlux' type='array' priority='9'>0</item>
-    <item name='forcePoint' type='array' priority='9'>0</item>
-    <item name='forceSegm' type='array' priority='9'>0</item>
-    <item name='friction' type='decimal' priority='4'>0.400000</item>
-    <item name='host' type='string' priority='1'>box2D</item>
-    <item name='impluse' type='array' priority='9'>0.000000 0.000000 </item>
-    <item name='lindamp' type='decimal' priority='3'>0.100000</item>
-    <item name='linvel' type='array' priority='8'>0.000000 0.000000 </item>
-    <item name='mass' type='decimal' priority='3'>10.000000</item>
-    <item name='mobile' type='boolean' priority='3'>1</item>
-    <item name='mute' type='boolean' priority='0'>0</item>
-    <item name='norot' type='boolean' priority='3'>0</item>
-    <item name='number' type='integer' priority='1'>1</item>
-    <item name='orientation' type='decimal' priority='3'>0.000000</item>
-    <item name='orientationRandom' type='boolean' priority='3'>0</item>
-    <item name='position' type='array' priority='3'>0.000000 0.000000 </item>
-    <item name='positionRandom' type='array' priority='3'>0.000000 0.000000 </item>
-    <item name='restitution' type='decimal' priority='4'>0.400000</item>
-    <item name='shapeType' type='string' priority='5'>circle</item>
-    <item name='shapeTypeArgs' type='array' priority='6'>1 0 0 </item>
-    <item name='shapeTypeArgsRandom' type='array' priority='6'>0</item>
-    <item name='torque' type='array' priority='9'>0.000000 0.000000 </item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 140 </item>
+    <item name='angdamp' type='decimal' priority='3' mixweight='1'>0.100000</item>
+    <item name='angvel' type='decimal' priority='8' mixweight='1'>0.000000</item>
+    <item name='collide' type='array' priority='8' mixweight='1'>1 65535 </item>
+    <item name='collidegroup' type='integer' priority='7' mixweight='1'>0</item>
+    <item name='density' type='decimal' priority='4' mixweight='1'>1.000000</item>
+    <item name='force' type='array' priority='9' mixweight='1'>0.000000 0.000000 </item>
+    <item name='forceFlux' type='array' priority='9' mixweight='1'>0</item>
+    <item name='forcePoint' type='array' priority='9' mixweight='1'>0</item>
+    <item name='forceSegm' type='array' priority='9' mixweight='1'>0</item>
+    <item name='friction' type='decimal' priority='4' mixweight='1'>0.400000</item>
+    <item name='host' type='string' priority='1' mixweight='1'>box2D</item>
+    <item name='impluse' type='array' priority='9' mixweight='1'>0.000000 0.000000 </item>
+    <item name='lindamp' type='decimal' priority='3' mixweight='1'>0.100000</item>
+    <item name='linvel' type='array' priority='8' mixweight='1'>0.000000 0.000000 </item>
+    <item name='mass' type='decimal' priority='3' mixweight='1'>10.000000</item>
+    <item name='mobile' type='boolean' priority='3' mixweight='1'>1</item>
+    <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='norot' type='boolean' priority='3' mixweight='1'>0</item>
+    <item name='number' type='integer' priority='1' mixweight='1'>1</item>
+    <item name='orientation' type='decimal' priority='3' mixweight='1'>0.000000</item>
+    <item name='orientationRandom' type='boolean' priority='3' mixweight='1'>0</item>
+    <item name='orientations' type='array' priority='3' mixweight='1'>0</item>
+    <item name='positionRandom' type='array' priority='3' mixweight='1'>0.000000 0.000000 </item>
+    <item name='positions' type='array' priority='3' mixweight='1'>0</item>
+    <item name='position' type='array' priority='3' mixweight='1'>0.000000 0.000000 </item>
+    <item name='restitution' type='decimal' priority='4' mixweight='1'>0.400000</item>
+    <item name='shapeType' type='string' priority='5' mixweight='1'>circle</item>
+    <item name='shapeTypeArgs' type='array' priority='6' mixweight='1'>1 0 0 </item>
+    <item name='shapeTypeArgsRandom' type='array' priority='6' mixweight='1'>0</item>
+    <item name='torque' type='array' priority='9' mixweight='1'>0.000000 0.000000 </item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 140 </item>
   </preset>
 </jamoma>
